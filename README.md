@@ -23,9 +23,24 @@ This project provides an interactive dashboard for analyzing and forecasting pub
 
 ## Project Structure
 ```
-public-health-dashboard/ ├── README.md ├── requirements.txt ├── Dockerfile ├── .github/ │ └── workflows/ │ └── ci.yml # CI/CD pipeline configuration ├── data/ │ └── covid_data.csv # Sample dataset ├── notebooks/ │ ├── EDA_Notebook.ipynb # Exploratory analysis and data cleaning │ └── Forecasting_Notebook.ipynb # Experimentation with forecasting methods └── src/ ├── data_loader.py # Data ingestion and cleaning with multiple sources ├── visualization.py # Visualization functions and summary stats ├── forecast.py # Forecasting modules (Prophet and ARIMA) └── app.py # Main Dash app with login, multi-tab layout, and callbacks
+public-health-dashboard/
+├── README.md
+├── requirements.txt
+├── Dockerfile
+├── .github/
+│ └── workflows/
+│ └── ci.yml # CI/CD pipeline configuration
+├── data/
+│ └── covid_data.csv # Sample dataset
+├── notebooks/
+│├── EDA_Notebook.ipynb # Exploratory analysis and data cleaning
+│ └── Forecasting_Notebook.ipynb # Experimentation with forecasting methods
+└── src/
+├── data_loader.py # Data ingestion and cleaning with multiple sources
+├── visualization.py # Visualization functions and summary stats
+├── forecast.py # Forecasting modules (Prophet and ARIMA)
+└── app.py # Main Dash app with login, multi-tab layout, and callbacks
 ```
-
 ## Installation
 **Clone the Repository:**
 ```
@@ -50,10 +65,9 @@ Build and run the Docker container with:
    docker run -p 8050:8050 public-health-dashboard
 ```
 ## Notebooks
-```
 EDA_Notebook.ipynb: Walks through data loading, cleaning, and exploratory analysis with visualizations.
 Forecasting_Notebook.ipynb: Demonstrates forecasting using Prophet, parameter tuning, and visualizes forecast outputs.
-```
+
 ## License
 This project is licensed under the MIT License.
 
