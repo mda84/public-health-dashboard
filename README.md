@@ -28,18 +28,18 @@ public-health-dashboard/
 ├── requirements.txt
 ├── Dockerfile
 ├── .github/
-│ └── workflows/
-│ └── ci.yml # CI/CD pipeline configuration
+│    └── workflows/
+│        └── ci.yml # CI/CD pipeline configuration
 ├── data/
-│ └── covid_data.csv # Sample dataset
+│    └── covid_data.csv # Sample dataset
 ├── notebooks/
-│├── EDA_Notebook.ipynb # Exploratory analysis and data cleaning
-│ └── Forecasting_Notebook.ipynb # Experimentation with forecasting methods
+│    ├── EDA_Notebook.ipynb # Exploratory analysis and data cleaning
+│    └── Forecasting_Notebook.ipynb # Experimentation with forecasting methods
 └── src/
-├── data_loader.py # Data ingestion and cleaning with multiple sources
-├── visualization.py # Visualization functions and summary stats
-├── forecast.py # Forecasting modules (Prophet and ARIMA)
-└── app.py # Main Dash app with login, multi-tab layout, and callbacks
+     ├── data_loader.py # Data ingestion and cleaning with multiple sources
+     ├── visualization.py # Visualization functions and summary stats
+     ├── forecast.py # Forecasting modules (Prophet and ARIMA)
+     └── app.py # Main Dash app with login, multi-tab layout, and callbacks
 ```
 ## Installation
 **Clone the Repository:**
