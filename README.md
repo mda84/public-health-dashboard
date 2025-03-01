@@ -44,7 +44,7 @@ public-health-dashboard/
 ## Installation
 **Clone the Repository:**
 ```
-   git clone https://github.com/yourusername/public-health-dashboard.git
+   git clone https://github.com/mda84/public-health-dashboard.git
    cd public-health-dashboard
 ```
 Set Up Virtual Environment and Install Dependencies:
